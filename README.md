@@ -6,3 +6,4 @@ https://www.last.fm/api/intro
 
 https://www.goodreads.com/api
 
+https://developer.spotify.com/documentation/web-api/reference/get-an-artist
