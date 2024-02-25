@@ -19,6 +19,15 @@ const MusicMoodQuiz = () => {
             case 'energetic':
                 suggestion = 'We suggest listening to Rock music.';
                 break;
+            case 'focused':
+                suggestion = 'We suggest listening to White noise.';
+                break;
+            case 'angry':
+                suggestion = 'We suggest listening to Drill music.';
+                break;
+            case 'calm':
+                suggestion = 'We suggest listening to Instrumental music.';
+                break;
         }
         setSuggestion(suggestion);
     }
@@ -32,6 +41,9 @@ const MusicMoodQuiz = () => {
                 <option value="sad">Sad</option>
                 <option value="relaxed">Relaxed</option>
                 <option value="energetic">Energetic</option>
+                <option value="focused">Focused</option>
+                <option value="angry">Angry</option>
+                <option value="calm">Calm</option>
             </select>
             <button onClick={suggestMusic}>Suggest Music</button>
             <p>{suggestion}</p>
