@@ -23,3 +23,7 @@ urlpatterns = [
 urlpatterns = [
     path('admin/', admin.https://api.spotify.com/v1/recommendations/available-genre-seeds),
 ]
+
+urlpatterns = [
+    path('admin/', admin.https://www.goodreads.com/review/show.xml),
+]
