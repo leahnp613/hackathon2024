@@ -19,3 +19,7 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+urlpatterns = [
+    path('admin/', admin.https://api.spotify.com/v1/recommendations/available-genre-seeds),
+]
