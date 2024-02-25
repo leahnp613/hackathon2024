@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const MusicMoodQuiz = () => {
+const MusicMood = () => {
     const [mood, setMood] = useState('happy');
     const [suggestion, setSuggestion] = useState('');
 
