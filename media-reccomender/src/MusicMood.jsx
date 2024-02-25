@@ -51,4 +51,4 @@ const MusicMood = () => {
     );
 }
 
-export default MusicMoodQuiz;
+export default MusicMood;
