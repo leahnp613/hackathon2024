@@ -1,6 +1,6 @@
 import React from 'react';
 import LandingPage from './LandingPage';
-import MusicMoodQuiz from './MusicMoodQuiz';
+import MusicMoodQuiz from './MusicMoodQuiz.jsx';
 
 const App = () => {
   return (
@@ -13,4 +13,3 @@ const App = () => {
 
 export default App;
 
-#test#
